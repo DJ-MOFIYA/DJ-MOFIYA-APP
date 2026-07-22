@@ -1,9 +1,9 @@
 {
-  "name": "BASE Creator",
+  "name": "DJ MOFIYA APP",
   "bio": "",
-  "contactEmail": "Place Email",
+  "contactEmail": "bookdjmofiya@gmail.com",
   "contactLabel": "Email",
-  "backgroundColor": "#000000",
+  "backgroundColor": "#831100",
   "background": {
     "enabled": false,
     "type": "none",
@@ -16,14 +16,14 @@
     "animation": "float"
   },
   "chime": {
-    "enabled": false,
-    "url": "",
+    "enabled": true,
+    "url": "./media/chime-1784735471144.mp3",
     "volume": 0.65
   },
-  "pillColor": "#000000",
+  "pillColor": "#96d35f",
   "innerSurface": {
-    "style": "default",
-    "color": "",
+    "style": "color",
+    "color": "#d357fe",
     "url": ""
   },
   "live": {
@@ -52,12 +52,12 @@
   },
   "supporters": [],
   "community": {
-    "enabled": false,
+    "enabled": true,
     "provider": "custom",
-    "name": "",
-    "icon": "",
+    "name": "FIYA TALK",
+    "icon": "./media/community-icon-1784735472277.png",
     "buttonText": "Enter Community",
     "url": "",
-    "embed": ""
+    "embed": "https://organizations.minnit.chat/274505522146345/c/Main?embed&app"
   }
 }
