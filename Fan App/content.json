@@ -13,7 +13,7 @@
     "enabled": true,
     "type": "image",
     "url": "./media/hero-image-1784762806344.png",
-    "animation": "pulse"
+    "animation": "spin"
   },
   "chime": {
     "enabled": true,
