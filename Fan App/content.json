@@ -3,11 +3,11 @@
   "bio": "",
   "contactEmail": "bookdjmofiya@gmail.com",
   "contactLabel": "Email",
-  "backgroundColor": "#831100",
+  "backgroundColor": "#000000",
   "background": {
-    "enabled": false,
-    "type": "none",
-    "url": ""
+    "enabled": true,
+    "type": "image",
+    "url": "./media/background-image-1784762644864.png"
   },
   "heroMedia": {
     "enabled": true,
