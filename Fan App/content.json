@@ -1,6 +1,6 @@
 {
   "name": "DJ MOFIYA APP",
-  "bio": "",
+  "bio": "Music, live sessions, bookings and more Tap below to reach me.",
   "contactEmail": "bookdjmofiya@gmail.com",
   "contactLabel": "Email",
   "backgroundColor": "#000000",
@@ -20,17 +20,19 @@
     "url": "./media/chime-1784735471144.mp3",
     "volume": 0.65
   },
-  "pillColor": "#96d35f",
+  "pillColor": "#b51a00",
   "innerSurface": {
-    "style": "color",
-    "color": "#d357fe",
-    "url": ""
+    "style": "video",
+    "color": "#000000",
+    "url": "./media/inner-surface-video-1784813293873.mp4",
+    "video": "./media/inner-surface-video-1784813293873.mp4",
+    "backgroundVideo": "./media/inner-surface-video-1784813293873.mp4"
   },
   "live": {
-    "enabled": false,
-    "status": "offline",
-    "watch_url": "",
-    "description": ""
+    "enabled": true,
+    "status": "live",
+    "watch_url": "https://customer-sb4ix37adh6j9xvg.cloudflarestream.com/80cb955843a44433f4b0608b3e90f963/iframe",
+    "description": "Live DJ performance. Music is presented as part of real-time live session and not an on- demand service. Every stream is a unique performance-join while its's live."
   },
   "links": [],
   "mediaGateway": {
