@@ -63,6 +63,39 @@
       "url": "https://a.co/d/030RcfUq",
       "buttonText": "Book",
       "enabled": true
+    },
+    {
+      "id": "supporter-1784838239354-e880e74d4b2e98",
+      "type": "supporter",
+      "name": "DJ ALAMO",
+      "tagline": "",
+      "description": "",
+      "thumbnail": "./media/supporter-supporter-1784838239354-e880e74d4b2e98-1784838852640.png",
+      "url": "https://djalamo.com/",
+      "buttonText": "Visit",
+      "enabled": true
+    },
+    {
+      "id": "supporter-1784838336072-4043d576b5b43",
+      "type": "supporter",
+      "name": "High Demand 2022",
+      "tagline": "Clothing",
+      "description": "",
+      "thumbnail": "./media/supporter-supporter-1784838336072-4043d576b5b43-1784838854208.png",
+      "url": "https://highdemandclothingcompany.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio",
+      "buttonText": "Shop now",
+      "enabled": true
+    },
+    {
+      "id": "supporter-1784838706119-32485055334c48",
+      "type": "supporter",
+      "name": "Rollin with Braz",
+      "tagline": "Community",
+      "description": "",
+      "thumbnail": "./media/supporter-supporter-1784838706119-32485055334c48-1784838855328.jpeg",
+      "url": "https://www.instagram.com/rwb_llc",
+      "buttonText": "Follow",
+      "enabled": true
     }
   ],
   "community": {
