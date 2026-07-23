@@ -52,7 +52,19 @@
     },
     "externalMedia": []
   },
-  "supporters": [],
+  "supporters": [
+    {
+      "id": "supporter-1784836724452-d83c40a03ed4b8",
+      "type": "supporter",
+      "name": "Base (the book)",
+      "tagline": "",
+      "description": "Now on Amazon",
+      "thumbnail": "./media/supporter-supporter-1784836724452-d83c40a03ed4b8-1784836759012.jpeg",
+      "url": "https://a.co/d/030RcfUq",
+      "buttonText": "Book",
+      "enabled": true
+    }
+  ],
   "community": {
     "enabled": true,
     "provider": "custom",
