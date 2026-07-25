@@ -34,9 +34,14 @@
     "watch_url": "https://customer-sb4ix37adh6j9xvg.cloudflarestream.com/80cb955843a44433f4b0608b3e90f963/iframe",
     "description": "Live DJ performance. Music is presented as part of real-time live session and not an on- demand service. Every stream is a unique performance-join while its's live."
   },
-  "links": [],
+  "links": [
+    {
+      "label": "Base (The Book)",
+      "url": "https://a.co/d/0b5xTUJ2"
+    }
+  ],
   "mediaGateway": {
-    "enabled": false,
+    "enabled": true,
     "collections": [
       {
         "id": "collection-1783820011390-b6c047e8c036d8",
