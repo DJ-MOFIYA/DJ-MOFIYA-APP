@@ -55,7 +55,18 @@
       "url": "",
       "animation": "none"
     },
-    "externalMedia": []
+    "externalMedia": [
+      {
+        "id": "external-1785076080297-6eb63a36855f5",
+        "provider": "custom",
+        "name": "Mo Fiya Media",
+        "url": "",
+        "embed": "<script>if(!window.picflow){window.picflow=!0;var s=document.createElement(\"script\");s.src=\"https://picflow.com/embed/main.js\";s.type='module';s.defer=true;document.head.appendChild(s);}</script><picflow-gallery id=\"gal_CjkXXVJPUq15Ll6R\" tenant=\"tnt_wF010uQK9a411fbe\" lightbox=\"#000000E6\" no-padding=\"true\" no-background=\"true\" show-cover=\"true\"><p style=\"font-size:12px;color:#999;font-family:sans-serif\">Client gallery powered by <a href=\"https://picflow.com\">Picflow</a></p></picflow-gallery>",
+        "thumbnail": "./media/thumb-external-1785076080297-6eb63a36855f5-1785076120325.png",
+        "buttonText": "Open Media",
+        "enabled": true
+      }
+    ]
   },
   "supporters": [
     {
