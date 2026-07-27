@@ -75,6 +75,16 @@
         "thumbnail": "./media/thumb-external-1785162274055-78dbea0971938-1785162296907.png",
         "buttonText": "Open Media",
         "enabled": true
+      },
+      {
+        "id": "external-1785163369713-f497c4c5a9f63",
+        "provider": "custom",
+        "name": "Mofiya Media",
+        "url": "",
+        "embed": "https://player.cloudinary.com/embed/?cloud_name=gvxekaht&public_id=IMG_9634_t9wwx3",
+        "thumbnail": "./media/thumb-external-1785163369713-f497c4c5a9f63-1785163373651.png",
+        "buttonText": "Open Media",
+        "enabled": true
       }
     ]
   },
