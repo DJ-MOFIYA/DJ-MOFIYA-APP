@@ -65,6 +65,16 @@
         "thumbnail": "./media/thumb-external-1785076080297-6eb63a36855f5-1785076120325.png",
         "buttonText": "Open Media",
         "enabled": true
+      },
+      {
+        "id": "external-1785162274055-78dbea0971938",
+        "provider": "custom",
+        "name": "MO FIYA MEDIA",
+        "url": "",
+        "embed": "<iframe   src=\"https://player.cloudinary.com/embed/?cloud_name=gvxekaht&public_id=IMG_9634_t9wwx3\"   width=\"640\"   height=\"360\"    style=\"height: auto; width: 100%; aspect-ratio: 640 / 360;\"   allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture\"   allowfullscreen   frameborder=\"0\" ></iframe>",
+        "thumbnail": "./media/thumb-external-1785162274055-78dbea0971938-1785162296907.png",
+        "buttonText": "Open Media",
+        "enabled": true
       }
     ]
   },
