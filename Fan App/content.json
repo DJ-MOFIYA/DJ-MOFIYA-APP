@@ -12,8 +12,8 @@
   "heroMedia": {
     "enabled": true,
     "type": "image",
-    "url": "./media/hero-image-1786053081239.png",
-    "animation": "none"
+    "url": "./media/hero-image-1786059683036.png",
+    "animation": "float"
   },
   "chime": {
     "enabled": true,
