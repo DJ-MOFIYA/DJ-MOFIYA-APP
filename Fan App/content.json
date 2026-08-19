@@ -126,8 +126,6 @@
   "analytics": {
     "enabled": true,
     "provider": "goat counter",
-    "config": {
-      "<script data-goatcounter=\"https": "//djmofiya.goatcounter.com/count\""
-    }
+    "snippet": "<script data-goatcounter=\"https://djmofiya.goatcounter.com/count\"\n        async src=\"//gc.zgo.at/count.js\"></script>"
   }
 }
