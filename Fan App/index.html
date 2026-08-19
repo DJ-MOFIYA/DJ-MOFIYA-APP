@@ -7,11 +7,11 @@
 
 <title>DJ MOFIYA APP</title>
 
-<link rel="manifest" href="manifest.json?v=1787136396469">
+<link rel="manifest" href="manifest.json?v=1786982489429">
 <meta name="theme-color" content="#000000">
-<link rel="apple-touch-icon" sizes="512x512" href="icons/icon-512-v45.png?v=1787136396469">
-<link rel="shortcut icon" type="image/png" href="icons/icon-192-v45.png?v=1787136396469">
-<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192-v45.png?v=1787136396469">
+<link rel="apple-touch-icon" sizes="512x512" href="icons/icon-512-v45.png?v=1786982489429">
+<link rel="shortcut icon" type="image/png" href="icons/icon-192-v45.png?v=1786982489429">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192-v45.png?v=1786982489429">
 
 <style>
 :root{
@@ -1339,7 +1339,7 @@ pointer-events:none;
 
 <div class="top">
 <div class="brand">
-<img id="logo" src="icons/icon-192-v45.png?v=1787136396469">
+<img id="logo" src="icons/icon-192-v45.png?v=1786982489429">
 <div class="name" id="name">Creator</div>
 </div>
 
@@ -3699,69 +3699,6 @@ enforceViewPlacement()
 
 }
 
-function initAnalytics(d){
-
-try{
-
-const analytics=d && d.analytics;
-
-if(!analytics || analytics.enabled!==true) return;
-
-const snippet=String(analytics.snippet || "").trim();
-
-if(!snippet) return;
-
-const container=document.createElement("div");
-container.innerHTML=snippet;
-
-Array.from(container.childNodes).forEach(node=>{
-
-if(node.nodeType!==1) return;
-
-if(node.tagName==="SCRIPT"){
-
-const script=document.createElement("script");
-
-Array.from(node.attributes).forEach(attr=>{
-script.setAttribute(attr.name,attr.value);
-});
-
-const rawSrc=node.getAttribute("src");
-
-if(rawSrc){
-
-let resolvedSrc=rawSrc.trim();
-
-if(resolvedSrc.startsWith("//")){
-resolvedSrc="https:"+resolvedSrc;
-}
-
-const safeSrc=safeURL(resolvedSrc);
-
-if(!safeSrc) return;
-
-script.setAttribute("src",safeSrc);
-
-}else if(node.textContent){
-
-script.textContent=node.textContent;
-
-}
-
-document.body.appendChild(script);
-
-}else{
-
-document.body.appendChild(node.cloneNode(true));
-
-}
-
-});
-
-}catch(e){}
-
-}
-
 function applyState(d){
 
 if(!d)return;
@@ -3976,11 +3913,6 @@ applyGlobalCardPresentation(d);
 applyInnerSurfacePresentation(d);
 runLaunchIntro(d);
 enforceViewPlacement();
-
-if(!analyticsInitialized){
-analyticsInitialized=true;
-initAnalytics(d);
-}
 
 }
 
@@ -4407,6 +4339,69 @@ return res.json();
 
 }
 
+function initAnalytics(d){
+
+try{
+
+const analytics=d && d.analytics;
+
+if(!analytics || analytics.enabled!==true) return;
+
+const snippet=String(analytics.snippet || "").trim();
+
+if(!snippet) return;
+
+const container=document.createElement("div");
+container.innerHTML=snippet;
+
+Array.from(container.childNodes).forEach(node=>{
+
+if(node.nodeType!==1) return;
+
+if(node.tagName==="SCRIPT"){
+
+const script=document.createElement("script");
+
+Array.from(node.attributes).forEach(attr=>{
+script.setAttribute(attr.name,attr.value);
+});
+
+const rawSrc=node.getAttribute("src");
+
+if(rawSrc){
+
+let resolvedSrc=rawSrc.trim();
+
+if(resolvedSrc.startsWith("//")){
+resolvedSrc="https:"+resolvedSrc;
+}
+
+const safeSrc=safeURL(resolvedSrc);
+
+if(!safeSrc) return;
+
+script.setAttribute("src",safeSrc);
+
+}else if(node.textContent){
+
+script.textContent=node.textContent;
+
+}
+
+document.body.appendChild(script);
+
+}else{
+
+document.body.appendChild(node.cloneNode(true));
+
+}
+
+});
+
+}catch(e){}
+
+}
+
 async function tick(){
 
 try{
@@ -4414,6 +4409,11 @@ try{
 const state=await fetchState();
 
 applyState(state);
+
+if(!analyticsInitialized){
+analyticsInitialized=true;
+initAnalytics(state);
+}
 
 }catch(e){}
 
