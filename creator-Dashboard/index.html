@@ -937,8 +937,8 @@ height:520px;
 <div class="row" style="margin-top:12px;">
 <div class="col">
 <label>Provider Configuration</label>
-<textarea id="analyticsConfig" placeholder="siteId: your-site&#10;measurementId: G-XXXXXXX"></textarea>
-<div class="tiny">One setting per line, as key: value. Whatever the chosen provider needs (site ID, measurement ID, script URL, etc).</div>
+<textarea id="analyticsConfig" placeholder='&lt;script data-goatcounter="https://yoursite.goatcounter.com/count" async src="//gc.zgo.at/count.js"&gt;&lt;/script&gt;'></textarea>
+<div class="tiny">Paste the exact embed code your provider gives you, whatever shape it comes in — a script tag, an inline snippet, or multiple tags. It runs on the Fan App exactly as given.</div>
 </div>
 </div>
 
@@ -1725,30 +1725,6 @@ embed:(el.communityEmbed.value || "").trim()
 }
 
 
-function configObjectToText(config){
-if(!config || typeof config!=="object") return ""
-
-return Object.entries(config)
-.map(([k,v])=>`${k}: ${v}`)
-.join("\n")
-}
-
-function configTextToObject(text){
-const out={}
-
-String(text||"").split("\n").forEach(line=>{
-const idx=line.indexOf(":")
-if(idx===-1) return
-
-const key=line.slice(0,idx).trim()
-const value=line.slice(idx+1).trim()
-
-if(key) out[key]=value
-})
-
-return out
-}
-
 function hydrateAnalytics(state){
 
 analyticsHydrated=true
@@ -1759,7 +1735,7 @@ const analytics=state && typeof state==="object" && state.analytics && typeof st
 
 el.analyticsEnabled.checked=analytics.enabled===true
 el.analyticsProvider.value=analytics.provider || ""
-el.analyticsConfig.value=configObjectToText(analytics.config)
+el.analyticsConfig.value=analytics.snippet || ""
 
 }
 
@@ -1769,7 +1745,7 @@ if(!(analyticsHydrated || analyticsTouched)) return null
 return{
 enabled:el.analyticsEnabled.checked===true,
 provider:(el.analyticsProvider.value || "").trim(),
-config:configTextToObject(el.analyticsConfig.value)
+snippet:(el.analyticsConfig.value || "").trim()
 }
 
 }
@@ -2987,7 +2963,7 @@ embed:""
 analytics:{
 enabled:false,
 provider:"",
-config:{}
+snippet:""
 }
 }
 
