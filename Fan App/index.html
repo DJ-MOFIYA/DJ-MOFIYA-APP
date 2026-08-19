@@ -1,4 +1,4 @@
- <!doctype html>
+<!doctype html>
 
 <html lang="en">
 <head>
@@ -1540,6 +1540,7 @@ let launchIntroResolved=false
 let launchIntroTimer=null
 let heroHiddenByData=false
 let supportersHiddenByData=false
+let analyticsInitialized=false
 
 const installInfoBtn=document.getElementById("installInfoBtn")
 const installModal=document.getElementById("installModal")
@@ -3698,6 +3699,43 @@ enforceViewPlacement()
 
 }
 
+function initAnalytics(d){
+
+try{
+
+const analytics=d && d.analytics;
+
+if(!analytics || analytics.enabled!==true) return;
+
+const config=(analytics.config && typeof analytics.config==="object") ? analytics.config : {};
+
+const rawSrc=String(config.scriptUrl || config.src || config.url || "").trim();
+const src=safeURL(rawSrc);
+
+if(!src) return;
+
+const script=document.createElement("script");
+script.src=src;
+script.async=true;
+
+Object.keys(config).forEach(key=>{
+
+if(key==="scriptUrl" || key==="src" || key==="url") return;
+
+const value=config[key];
+
+if(value===undefined || value===null || value==="") return;
+
+script.setAttribute("data-"+key,value);
+
+});
+
+document.body.appendChild(script);
+
+}catch(e){}
+
+}
+
 function applyState(d){
 
 if(!d)return;
@@ -3912,6 +3950,11 @@ applyGlobalCardPresentation(d);
 applyInnerSurfacePresentation(d);
 runLaunchIntro(d);
 enforceViewPlacement();
+
+if(!analyticsInitialized){
+analyticsInitialized=true;
+initAnalytics(d);
+}
 
 }
 
