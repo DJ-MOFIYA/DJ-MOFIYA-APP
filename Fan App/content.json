@@ -122,5 +122,12 @@
     "buttonText": "Enter Community",
     "url": "",
     "embed": "https://organizations.minnit.chat/274505522146345/c/Main?embed&app"
+  },
+  "analytics": {
+    "enabled": true,
+    "provider": "goat counter",
+    "config": {
+      "<script data-goatcounter=\"https": "//djmofiya.goatcounter.com/count\""
+    }
   }
 }
