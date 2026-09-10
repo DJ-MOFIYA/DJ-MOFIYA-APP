@@ -117,7 +117,7 @@
   "community": {
     "enabled": true,
     "provider": "custom",
-    "name": "FIYA TALK",
+    "name": "Where the conversation lives!",
     "icon": "./media/community-icon-1784735472277.png",
     "buttonText": "Enter Community",
     "url": "",
