@@ -6,8 +6,8 @@
   "backgroundColor": "#000000",
   "background": {
     "enabled": true,
-    "type": "video",
-    "url": "./media/background-video-1788380145823.mov"
+    "type": "image",
+    "url": "./media/background-image-1789405178487.png"
   },
   "heroMedia": {
     "enabled": true,
@@ -103,14 +103,25 @@
       "enabled": true
     },
     {
-      "id": "supporter-1784838706119-32485055334c48",
+      "id": "supporter-1789405055339-48263a99d2b488",
       "type": "supporter",
-      "name": "Rollin with Braz",
-      "tagline": "Community",
+      "name": "Respect The DJ Pt. 30",
+      "tagline": "Hosted By Third World Don",
       "description": "",
-      "thumbnail": "./media/supporter-supporter-1784838706119-32485055334c48-1784838855328.jpeg",
-      "url": "https://www.instagram.com/rwb_llc",
-      "buttonText": "Follow",
+      "thumbnail": "./media/supporter-supporter-1789405055339-48263a99d2b488-1789405180603.png",
+      "url": "https://topmixtapes.com/mixtape/Q42w1NtBlH",
+      "buttonText": "Visit",
+      "enabled": true
+    },
+    {
+      "id": "supporter-1789405160442-026f3ae65cd1d",
+      "type": "supporter",
+      "name": "DJ Alamo App",
+      "tagline": "Direct Link",
+      "description": "",
+      "thumbnail": "./media/supporter-supporter-1789405160442-026f3ae65cd1d-1789405182990.png",
+      "url": "https://app.djalamo.com",
+      "buttonText": "Go",
       "enabled": true
     }
   ],
