@@ -6,8 +6,8 @@
   "backgroundColor": "#000000",
   "background": {
     "enabled": true,
-    "type": "image",
-    "url": "./media/background-image-1790018499389.png"
+    "type": "video",
+    "url": "./media/background-video-1790280693093.mov"
   },
   "heroMedia": {
     "enabled": true,
