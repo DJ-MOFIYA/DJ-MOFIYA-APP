@@ -53,10 +53,10 @@
     "presentation": {
       "style": "video",
       "color": "#050505",
-      "url": "./media/media-card-video-1791708924113.mp4",
+      "url": "./media/media-card-video-1791709840082.mov",
       "animation": "none",
-      "video": "./media/media-card-video-1791708924113.mp4",
-      "backgroundVideo": "./media/media-card-video-1791708924113.mp4"
+      "video": "./media/media-card-video-1791709840082.mov",
+      "backgroundVideo": "./media/media-card-video-1791709840082.mov"
     },
     "externalMedia": [
       {
