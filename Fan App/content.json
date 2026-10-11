@@ -6,27 +6,27 @@
   "backgroundColor": "#000000",
   "background": {
     "enabled": true,
-    "type": "video",
-    "url": "./media/background-video-1790280693093.mov"
+    "type": "image",
+    "url": "./media/background-image-1791708917676.jpeg"
   },
   "heroMedia": {
     "enabled": true,
     "type": "image",
-    "url": "./media/hero-image-1786982485288.png",
+    "url": "./media/hero-image-1791708918994.png",
     "animation": "spin"
   },
   "chime": {
     "enabled": true,
-    "url": "./media/chime-1784735471144.mp3",
-    "volume": 0.65
+    "url": "./media/chime-1791708921651.mp3",
+    "volume": 0.55
   },
   "pillColor": "#b51a00",
   "innerSurface": {
     "style": "video",
     "color": "#000000",
-    "url": "./media/inner-surface-video-1790018501620.mp4",
-    "video": "./media/inner-surface-video-1790018501620.mp4",
-    "backgroundVideo": "./media/inner-surface-video-1790018501620.mp4"
+    "url": "./media/inner-surface-video-1791708922956.mp4",
+    "video": "./media/inner-surface-video-1791708922956.mp4",
+    "backgroundVideo": "./media/inner-surface-video-1791708922956.mp4"
   },
   "live": {
     "enabled": true,
@@ -50,10 +50,12 @@
       }
     ],
     "presentation": {
-      "style": "default",
+      "style": "video",
       "color": "#050505",
-      "url": "",
-      "animation": "none"
+      "url": "./media/media-card-video-1791708924113.mp4",
+      "animation": "none",
+      "video": "./media/media-card-video-1791708924113.mp4",
+      "backgroundVideo": "./media/media-card-video-1791708924113.mp4"
     },
     "externalMedia": [
       {
