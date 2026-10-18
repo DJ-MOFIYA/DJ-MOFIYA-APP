@@ -7,12 +7,12 @@
   "background": {
     "enabled": true,
     "type": "image",
-    "url": "./media/background-image-1791708917676.jpeg"
+    "url": "./media/background-image-1792295755882.jpg"
   },
   "heroMedia": {
     "enabled": true,
     "type": "image",
-    "url": "./media/hero-image-1791708918994.png",
+    "url": "./media/hero-image-1792295757429.png",
     "animation": "spin"
   },
   "chime": {
@@ -20,14 +20,14 @@
     "url": "./media/chime-1791708921651.mp3",
     "volume": 0.55
   },
-  "pillColor": "#b51a00",
+  "pillColor": "#831100",
   "innerSurface": {
     "style": "image",
     "color": "#000000",
-    "url": "./media/inner-surface-image-1791709353261.gif",
-    "image": "./media/inner-surface-image-1791709353261.gif",
-    "wallpaper": "./media/inner-surface-image-1791709353261.gif",
-    "backgroundImage": "./media/inner-surface-image-1791709353261.gif"
+    "url": "./media/inner-surface-image-1792295761708.gif",
+    "image": "./media/inner-surface-image-1792295761708.gif",
+    "wallpaper": "./media/inner-surface-image-1792295761708.gif",
+    "backgroundImage": "./media/inner-surface-image-1792295761708.gif"
   },
   "live": {
     "enabled": true,
@@ -51,12 +51,13 @@
       }
     ],
     "presentation": {
-      "style": "video",
+      "style": "image",
       "color": "#050505",
-      "url": "./media/media-card-video-1791709840082.mov",
+      "url": "./media/media-card-image-1792295766871.jpg",
       "animation": "none",
-      "video": "./media/media-card-video-1791709840082.mov",
-      "backgroundVideo": "./media/media-card-video-1791709840082.mov"
+      "image": "./media/media-card-image-1792295766871.jpg",
+      "wallpaper": "./media/media-card-image-1792295766871.jpg",
+      "backgroundImage": "./media/media-card-image-1792295766871.jpg"
     },
     "externalMedia": [
       {
