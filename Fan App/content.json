@@ -7,12 +7,12 @@
   "background": {
     "enabled": true,
     "type": "image",
-    "url": "./media/background-image-1792295755882.jpg"
+    "url": "./media/background-image-1793004770395.png"
   },
   "heroMedia": {
     "enabled": true,
-    "type": "image",
-    "url": "./media/hero-image-1792295757429.png",
+    "type": "video",
+    "url": "./media/hero-video-1793004772197.mp4",
     "animation": "spin"
   },
   "chime": {
@@ -22,12 +22,11 @@
   },
   "pillColor": "#831100",
   "innerSurface": {
-    "style": "image",
+    "style": "video",
     "color": "#000000",
-    "url": "./media/inner-surface-image-1792295761708.gif",
-    "image": "./media/inner-surface-image-1792295761708.gif",
-    "wallpaper": "./media/inner-surface-image-1792295761708.gif",
-    "backgroundImage": "./media/inner-surface-image-1792295761708.gif"
+    "url": "./media/inner-surface-video-1793004775192.mp4",
+    "video": "./media/inner-surface-video-1793004775192.mp4",
+    "backgroundVideo": "./media/inner-surface-video-1793004775192.mp4"
   },
   "live": {
     "enabled": true,
@@ -51,13 +50,12 @@
       }
     ],
     "presentation": {
-      "style": "image",
+      "style": "video",
       "color": "#050505",
-      "url": "./media/media-card-image-1792295766871.jpg",
+      "url": "./media/media-card-video-1793004776572.mp4",
       "animation": "none",
-      "image": "./media/media-card-image-1792295766871.jpg",
-      "wallpaper": "./media/media-card-image-1792295766871.jpg",
-      "backgroundImage": "./media/media-card-image-1792295766871.jpg"
+      "video": "./media/media-card-video-1793004776572.mp4",
+      "backgroundVideo": "./media/media-card-video-1793004776572.mp4"
     },
     "externalMedia": [
       {
