@@ -11,8 +11,8 @@
   },
   "heroMedia": {
     "enabled": true,
-    "type": "video",
-    "url": "./media/hero-video-1793004772197.mp4",
+    "type": "image",
+    "url": "./media/hero-image-1793005091846.png",
     "animation": "spin"
   },
   "chime": {
