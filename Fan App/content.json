@@ -22,11 +22,12 @@
   },
   "pillColor": "#3a88fe",
   "innerSurface": {
-    "style": "video",
+    "style": "image",
     "color": "#000000",
-    "url": "./media/inner-surface-video-1793004775192.mp4",
-    "video": "./media/inner-surface-video-1793004775192.mp4",
-    "backgroundVideo": "./media/inner-surface-video-1793004775192.mp4"
+    "url": "./media/inner-surface-image-1793005241867.gif",
+    "image": "./media/inner-surface-image-1793005241867.gif",
+    "wallpaper": "./media/inner-surface-image-1793005241867.gif",
+    "backgroundImage": "./media/inner-surface-image-1793005241867.gif"
   },
   "live": {
     "enabled": true,
@@ -50,12 +51,13 @@
       }
     ],
     "presentation": {
-      "style": "video",
+      "style": "image",
       "color": "#050505",
-      "url": "./media/media-card-video-1793004776572.mp4",
+      "url": "./media/media-card-image-1793005243570.gif",
       "animation": "none",
-      "video": "./media/media-card-video-1793004776572.mp4",
-      "backgroundVideo": "./media/media-card-video-1793004776572.mp4"
+      "image": "./media/media-card-image-1793005243570.gif",
+      "wallpaper": "./media/media-card-image-1793005243570.gif",
+      "backgroundImage": "./media/media-card-image-1793005243570.gif"
     },
     "externalMedia": [
       {
